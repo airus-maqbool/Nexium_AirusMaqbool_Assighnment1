@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Sidebar from "@/components/ui/sidebar";
+
 import Navbar from "@/components/ui/navbar";
+import { FavouritesProvider } from "@/context/favouritesContext";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,10 +28,13 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex min-h-screen`}>
-        <Sidebar />
-        <div className="flex-1 bg-white p-6 text-black">
-          <Navbar />
-          <main>{children}</main>
+        
+        <div className="flex-1 bg-purple-100  text-black flex justify-center items-center">
+           <div className=" bg-white rounded-lg p-1 w-full max-w-5xl h-[600px] border border-purple-700">
+            <Navbar />
+          {/* wraped in  provider context to share favourites , now any componet can access favourites, add, remove inside app/ */}
+          <FavouritesProvider>{children}</FavouritesProvider> 
+          </div>  
         </div>
         
       </body>
