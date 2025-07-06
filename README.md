@@ -24,7 +24,7 @@ A simple web app built with **Next.js** that lets users:
 ## 📂 How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/airus-maqbool/Nexium_AirusMaqbool_Assighnment1.git
+cd Nexium_AirusMaqbool_Assighnment1/assighnment-1
 npm install
 npm run dev
