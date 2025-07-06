@@ -30,11 +30,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex min-h-screen`}>
         
         <div className="flex-1 bg-purple-100  text-black flex justify-center items-center">
+          <div className="rounded-lg p-3 border-2 border-purple-700 w-full max-w-5xl">
            <div className=" bg-white rounded-lg p-1 w-full max-w-5xl h-[600px] border border-purple-700">
             <Navbar />
           {/* wraped in  provider context to share favourites , now any componet can access favourites, add, remove inside app/ */}
           <FavouritesProvider>{children}</FavouritesProvider> 
-          </div>  
+          </div> 
+          </div> 
         </div>
         
       </body>

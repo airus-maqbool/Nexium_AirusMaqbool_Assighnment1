@@ -1,0 +1,33 @@
+{
+  "success": [
+    { "text": "Success is not in what you have, but who you are.", "author": "Bo Bennett" },
+    { "text": "The road to success is always under construction.", "author": "Lily Tomlin" },
+    { "text": "Success is walking from failure to failure with no loss of enthusiasm.", "author": "Winston Churchill" },
+    { "text": "Don't watch the clock; do what it does. Keep going.", "author": "Sam Levenson" },
+    { "text": "Success usually comes to those who are too busy to be looking for it.", "author": "Thoreau" }
+  ],
+  "motivation": [
+    { "text": "Your limitation—it's only your imagination.", "author": "Unknown" },
+    { "text": "Push yourself, because no one else is going to do it for you.", "author": "Anonymous" },
+    { "text": "Great things never come from comfort zones.", "author": "Unknown" },
+    { "text": "Dream it. Wish it. Do it.", "author": "Unknown" },
+    { "text": "Sometimes later becomes never. Do it now.", "author": "Unknown" }
+  ],
+  "life": [
+    { "text": "Life is really simple, but we insist on making it complicated.", "author": "Confucius" },
+    { "text": "In the middle of difficulty lies opportunity.", "author": "Albert Einstein" },
+    { "text": "Life itself is the most wonderful fairy tale.", "author": "Hans Christian Andersen" },
+    { "text": "Life is short, and it is up to you to make it sweet.", "author": "Sarah Louise Delany" },
+    { "text": "Difficult and meaningful will always bring more satisfaction than easy and meaningless.", "author": "Maxime Lagace" }
+  ],
+  "perseverance": [
+    { "text": "Perseverance is not a long race; it is many short races one after the other.", "author": "Walter Elliot" },
+    { "text": "Through perseverance many people win success out of what seemed destined to be certain failure.", "author": "Benjamin Disraeli" },
+    { "text": "It always seems impossible until it’s done.", "author": "Nelson Mandela" }
+  ],
+  "courage": [
+    { "text": "Courage doesn’t always roar. Sometimes courage is the quiet voice at the end of the day saying, ‘I will try again tomorrow.’", "author": "Mary Anne Radmacher" },
+    { "text": "Courage is resistance to fear, mastery of fear – not absence of fear.", "author": "Mark Twain" },
+    { "text": "You cannot swim for new horizons until you have courage to lose sight of the shore.", "author": "William Faulkner" }
+  ]
+}
